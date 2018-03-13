@@ -1,0 +1,36 @@
+<p id="notice"><%= notice %></p>
+<div class="row">
+  <div class="col-sm-6">
+    <h1>Restaurants</h1>
+  </div>
+</div>
+<br/>
+
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>Upvote</th>
+      <th>Downvote</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @restaurants.each do |restaurant| %>
+      <tr>
+        <td><%= restaurant.name %></td>
+        <td><%= restaurant.address %></td>
+        <td><%= restaurant.city %></td>
+        <td><%= restaurant.upvote %></td>
+        <td><%= restaurant.downvote %></td>
+        <td><%= link_to 'Show', restaurant, class: 'btn btn-primary' %></td>
+        <td><%= link_to 'Edit', edit_restaurant_path(restaurant), class: 'btn btn-warning' %></td>
+        <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
