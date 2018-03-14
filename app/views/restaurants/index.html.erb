@@ -4,6 +4,26 @@
     <h1>Restaurants</h1>
   </div>
 </div>
+<div class="row">
+  <div class="col-sm-9">
+    <%= form_for :restaurant, url: search_path, html: { class: "form-inline" } do |f| %>
+        <div class="form-group">
+          <%= f.text_field :name, value: params[:restaurant].try(:[], :name), class: 'form-control', placeholder: 'Search by Name' %>
+        </div>
+        <div class="form-group">
+          <%= f.text_field :address, value: params[:restaurant].try(:[], :address), class: 'form-control', placeholder: 'Search by Address' %>
+        </div>
+        <div class="form-group">
+          <%= f.text_field :city, value: params[:restaurant].try(:[], :city), class: 'form-control', placeholder: 'Search by City' %>
+        </div>
+        <%= f.submit 'Search', class: 'btn btn-default' %>
+        <%= link_to 'Reset', restaurants_url, class: 'btn btn-default' %>
+    <% end %>
+  </div>
+  <div class="col-sm-3">
+    <%= link_to 'New Restaurant', new_restaurant_path, class: 'btn btn-default pull-right', style: 'margin-top: 14px' %>
+  </div>
+</div>
 <br/>
 
 

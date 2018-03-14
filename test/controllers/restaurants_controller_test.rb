@@ -45,4 +45,43 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to restaurants_url
   end
+
+  test "should search restaurant by name" do
+    post search_path, params: { restaurant: { name: @restaurant.name } }
+    assert_response :success
+
+    assert_select 'table' do
+      assert_select 'tbody' do
+        assert_select 'tr', 1
+        assert_select 'tr' do
+          assert_select 'td', @restaurant.address
+        end
+      end
+    end
+  end
+
+  test "should search restaurant by address" do
+    post search_path, params: { restaurant: { address: @restaurant.address } }
+    assert_response :success
+
+    assert_select 'table' do
+      assert_select 'tbody' do
+        assert_select 'tr', 1
+        assert_select 'tr' do
+          assert_select 'td', @restaurant.address
+        end
+      end
+    end
+  end
+
+  test 'search no result' do
+    post search_path, params: { restaurant: { name: 'No Name Exists' } }
+    assert_response :success
+
+    assert_select 'table' do
+      assert_select 'tbody' do
+        assert_select 'tr', 0
+      end
+      end
+  end
 end

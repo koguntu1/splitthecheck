@@ -61,6 +61,14 @@ class RestaurantsController < ApplicationController
     end
   end
 
+  def search
+    @restaurants = Restaurant.where("name like ? AND city like ? AND address like ?",
+                                    "%#{params['restaurant']['name']}%", "%#{params['restaurant']['city']}%", "%#{params['restaurant']['address']}%")
+    respond_to do |format|
+      format.html { render :index }
+    end
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_restaurant

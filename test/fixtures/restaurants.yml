@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  address: MyString
-  city: MyString
+  name: First Hotel
+  address: New Street 23
+  city: Newyork
   upvote: 1
   downvote: 1
 
 two:
-  name: MyString
-  address: MyString
-  city: MyString
+  name: Second Hotel
+  address: New Street 20
+  city: Newyork
   upvote: 1
   downvote: 1
