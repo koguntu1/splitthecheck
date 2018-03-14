@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6efc07fc-786c-44ed-a98e-7acc85c28d3e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/restaurants.yml" afterPath="$PROJECT_DIR$/test/fixtures/restaurants.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/restaurant_test.rb" afterPath="$PROJECT_DIR$/test/models/restaurant_test.rb" />
     </list>
     <ignored path="split-the-check.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,7 +79,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="restaurants_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="restaurant_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/models/restaurant_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurants_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="620">
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/test/fixtures/restaurants.yml" />
         <option value="$PROJECT_DIR$/app/controllers/restaurants_controller.rb" />
         <option value="$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb" />
+        <option value="$PROJECT_DIR$/test/models/restaurant_test.rb" />
       </list>
     </option>
   </component>
@@ -177,7 +187,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;gem&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/Gemfile&#10;contr&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/controllers/restaurants_controller.rb&#10;restau.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;controller_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/controllers/restaurants_controller_test.rb&#10;res&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/config/routes.rb&#10;appl.h&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;index&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/index.html.erb&#10;res.sc&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss" />
+    <property name="SearchEverywhereHistoryKey" value="restaurant_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/models/restaurant_test.rb&#10;restau&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/models/restaurant.rb&#10;yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;gem&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/Gemfile&#10;contr&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/controllers/restaurants_controller.rb&#10;restau.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;controller_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/controllers/restaurants_controller_test.rb&#10;res&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/config/routes.rb&#10;appl.h&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;index&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/index.html.erb&#10;res.sc&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss" />
   </component>
   <component name="RunManager" selected="Rails.Development: split-the-check">
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -241,12 +251,12 @@
       <option name="presentableId" value="Default" />
       <updated>1520668285177</updated>
       <workItem from="1520668286747" duration="3727000" />
-      <workItem from="1520828803403" duration="1179000" />
+      <workItem from="1520828803403" duration="1626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4906000" />
+    <option name="totallyTimeSpent" value="5353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,14 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -412,6 +414,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/models/restaurant_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
