@@ -17,12 +17,12 @@
 
 <p>
   <strong>Upvote:</strong>
-  <%= @restaurant.upvote %>
+<span class="likes"><%= @restaurant.upvote.to_i %></span>
 </p>
 
 <p>
   <strong>Downvote:</strong>
-  <%= @restaurant.downvote %>
+  <span class="dislikes"><%=  @restaurant.downvote.to_i  %></span>
 </p>
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |

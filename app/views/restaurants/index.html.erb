@@ -45,8 +45,8 @@
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
         <td><%= restaurant.city %></td>
-        <td><%= restaurant.upvote %></td>
-        <td><%= restaurant.downvote %></td>
+        <td><%= restaurant.upvote.to_i %></td>
+        <td><%= restaurant.downvote.to_i %></td>
         <td><%= link_to 'Show', restaurant, class: 'btn btn-primary' %></td>
         <td><%= link_to 'Edit', edit_restaurant_path(restaurant), class: 'btn btn-warning' %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>

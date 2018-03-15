@@ -1,5 +1,10 @@
 <h1>New Restaurant</h1>
 
-<%= render 'form', restaurant: @restaurant %>
+<div class="row">
+  <div class="col-sm-6">
 
-<%= link_to 'Back', restaurants_path %>
+    <%= render 'form', restaurant: @restaurant %>
+
+    <%= link_to 'Back', restaurants_path %>
+  </div>
+</div>
