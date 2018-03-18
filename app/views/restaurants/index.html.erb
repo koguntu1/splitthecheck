@@ -35,6 +35,7 @@
       <th>City</th>
       <th>Upvote</th>
       <th>Downvote</th>
+      <th>Total Votes</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -45,12 +46,39 @@
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
         <td><%= restaurant.city %></td>
-        <td><%= restaurant.upvote.to_i %></td>
-        <td><%= restaurant.downvote.to_i %></td>
+        <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote'  %></td>
+        <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote'  %></td>
+        <td><span class="<%= restaurant.id %>"><%= restaurant.upvote.to_i %></span></td>
         <td><%= link_to 'Show', restaurant, class: 'btn btn-primary' %></td>
-        <td><%= link_to 'Edit', edit_restaurant_path(restaurant), class: 'btn btn-warning' %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
+<script language="JavaScript" type="text/javascript"></script>
+<script>
+    $(".upvote").click(function () {
+      var upvote = $(this).attr("id");
+      $.ajax({
+        url: 'restaurants/' + $(this).attr("id"),
+        type: 'patch',
+        data: {'restaurant' : {'upvote' : parseInt($('.' + $(this).attr("id")).text()) + 1, state: 'upvote'} },
+        dataType: 'json',
+        success: function(data){
+          $('.' + upvote).text(data.upvote);
+        }
+      })
+    });
+    $(".downvote").click(function () {
+      var upvote = $(this).attr("id");
+      $.ajax({
+        url: 'restaurants/' + $(this).attr("id"),
+        type: 'patch',
+        data: {'restaurant' : {'upvote' : parseInt($('.' + $(this).attr("id")).text()) - 1 , state: 'downvote'} },
+        dataType: 'json',
+        success: function(data){
+          $('.' + upvote).text(data.upvote);
+        }
+      })
+    });
+</script>

@@ -26,16 +26,6 @@
     <%= form.text_field :city, id: :restaurant_city, class: 'form-control' %>
   </div>
 
-  <div class="form-group">
-    <%= form.label :upvote %>
-    <%= form.number_field :upvote, id: :restaurant_upvote, class: 'form-control' %>
-  </div>
-
-  <div class="form-group">
-    <%= form.label :downvote %>
-    <%= form.number_field :downvote, id: :restaurant_downvote, class: 'form-control' %>
-  </div>
-
   <div class="actions">
     <%= form.submit 'Save', class: 'btn btn--default' %>
   </div>

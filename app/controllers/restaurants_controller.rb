@@ -1,6 +1,6 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
-
+  skip_before_action :verify_authenticity_token
   # GET /restaurants
   # GET /restaurants.json
   def index
@@ -40,8 +40,13 @@ class RestaurantsController < ApplicationController
   # PATCH/PUT /restaurants/1
   # PATCH/PUT /restaurants/1.json
   def update
+
     respond_to do |format|
       if @restaurant.update(restaurant_params)
+        if params[:restaurant][:state] == 'downvote'
+          @restaurant.downvote =@restaurant.downvote.to_i +  1
+          @restaurant.save
+        end
         format.html { redirect_to @restaurant, notice: 'Restaurant was successfully updated.' }
         format.json { render :show, status: :ok, location: @restaurant }
       else
