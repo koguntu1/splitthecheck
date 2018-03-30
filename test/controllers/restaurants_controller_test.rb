@@ -84,4 +84,15 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
       end
       end
   end
+
+  test 'should verify upvote and downvote' do
+    assert_equal @restaurant.upvote, 1
+    assert_equal @restaurant.downvote, 1
+    patch restaurant_url(@restaurant), params: { restaurant: { upvote: 3, downvote: 4, id: @restaurant.id}, format: :json }
+    assert_response :success
+
+    @restaurant.reload
+    assert_equal @restaurant.upvote, 3
+    assert_equal @restaurant.downvote, 4
+  end
 end

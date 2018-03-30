@@ -43,10 +43,6 @@ class RestaurantsController < ApplicationController
 
     respond_to do |format|
       if @restaurant.update(restaurant_params)
-        if params[:restaurant][:state] == 'downvote'
-          @restaurant.downvote =@restaurant.downvote.to_i +  1
-          @restaurant.save
-        end
         format.html { redirect_to @restaurant, notice: 'Restaurant was successfully updated.' }
         format.json { render :show, status: :ok, location: @restaurant }
       else

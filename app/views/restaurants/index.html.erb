@@ -35,7 +35,7 @@
       <th>City</th>
       <th>Upvote</th>
       <th>Downvote</th>
-      <th>Total Votes</th>
+      <th>Up/Down -- Total</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -48,7 +48,11 @@
         <td><%= restaurant.city %></td>
         <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote'  %></td>
         <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote'  %></td>
-        <td><span class="<%= restaurant.id %>"><%= restaurant.upvote.to_i %></span></td>
+        <td>
+          <span class="<%= restaurant.id %>_up"><%= restaurant.upvote %></span>|
+          <span class="<%= restaurant.id %>_down"><%= restaurant.downvote %></span>|
+          <span class="<%= restaurant.id %>_total"><%= restaurant.upvote.to_i - restaurant.downvote.to_i %></span>
+        </td>
         <td><%= link_to 'Show', restaurant, class: 'btn btn-primary' %></td>
         <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
       </tr>
@@ -62,10 +66,12 @@
       $.ajax({
         url: 'restaurants/' + $(this).attr("id"),
         type: 'patch',
-        data: {'restaurant' : {'upvote' : parseInt($('.' + $(this).attr("id")).text()) + 1, state: 'upvote'} },
+        data: {'restaurant' : {'upvote' : parseInt($('.' + $(this).attr("id") + '_up').text()) + 1} },
         dataType: 'json',
         success: function(data){
-          $('.' + upvote).text(data.upvote);
+          $('.' + upvote + '_up').text(data.upvote);
+          $('.' + upvote + '_down').text(data.downvote);
+          $('.' + upvote + '_total').text(data.upvote - data.downvote);
         }
       })
     });
@@ -74,10 +80,12 @@
       $.ajax({
         url: 'restaurants/' + $(this).attr("id"),
         type: 'patch',
-        data: {'restaurant' : {'upvote' : parseInt($('.' + $(this).attr("id")).text()) - 1 , state: 'downvote'} },
+        data: {'restaurant' : {'downvote' : parseInt($('.' + $(this).attr("id") + '_down').text()) + 1 } },
         dataType: 'json',
         success: function(data){
-          $('.' + upvote).text(data.upvote);
+          $('.' + upvote + '_up').text(data.upvote);
+          $('.' + upvote + '_down').text(data.downvote);
+          $('.' + upvote + '_total').text(data.upvote - data.downvote);
         }
       })
     });
