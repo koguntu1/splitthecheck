@@ -1,4 +1,3 @@
-<p id="notice"><%= notice %></p>
 <div class="row">
   <div class="col-sm-6">
     <h1>Restaurants</h1>
@@ -33,8 +32,10 @@
       <th>Name</th>
       <th>Address</th>
       <th>City</th>
-      <th>Upvote</th>
-      <th>Downvote</th>
+      <% if user_signed_in? %>
+          <th>Upvote</th>
+          <th>Downvote</th>
+    <% end %>
       <th>Up/Down -- Total</th>
       <th colspan="3"></th>
     </tr>
@@ -46,8 +47,10 @@
         <td><%= restaurant.name %></td>
         <td><%= restaurant.address %></td>
         <td><%= restaurant.city %></td>
-        <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote'  %></td>
-        <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote'  %></td>
+        <% if user_signed_in? %>
+            <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote'  %></td>
+            <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote'  %></td>
+      <% end %>
         <td>
           <span class="<%= restaurant.id %>_up"><%= restaurant.upvote %></span>|
           <span class="<%= restaurant.id %>_down"><%= restaurant.downvote %></span>|

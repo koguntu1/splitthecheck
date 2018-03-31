@@ -1,5 +1,6 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:create, :new, :edit, :update, :destroy]
   skip_before_action :verify_authenticity_token
   # GET /restaurants
   # GET /restaurants.json
