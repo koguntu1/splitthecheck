@@ -1,6 +1,6 @@
 class RestaurantsController < ApplicationController
   before_action :set_restaurant, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, only: [:create, :new, :edit, :update, :destroy]
+  before_action :authenticate_user!, except: [:show, :index, :vote_history, :search]
   skip_before_action :verify_authenticity_token
   # GET /restaurants
   # GET /restaurants.json
@@ -41,9 +41,15 @@ class RestaurantsController < ApplicationController
   # PATCH/PUT /restaurants/1
   # PATCH/PUT /restaurants/1.json
   def update
-
     respond_to do |format|
-      if @restaurant.update(restaurant_params)
+      @restaurant.name = restaurant_params[:name] if restaurant_params[:name]
+      @restaurant.address = restaurant_params[:address] if restaurant_params[:address]
+      @restaurant.city = restaurant_params[:city] if restaurant_params[:city]
+      @restaurant.upvote = restaurant_params[:upvote] if restaurant_params[:upvote]
+      @restaurant.downvote = restaurant_params[:downvote] if restaurant_params[:downvote]
+      changed = @restaurant.changed
+      if @restaurant.save
+        create_user_votes(changed)
         format.html { redirect_to @restaurant, notice: 'Restaurant was successfully updated.' }
         format.json { render :show, status: :ok, location: @restaurant }
       else
@@ -71,7 +77,27 @@ class RestaurantsController < ApplicationController
     end
   end
 
+  def vote_history
+    @user_votes = UserVote.where(restaurant_id: params[:id].to_i)
+  end
+
   private
+
+  def create_user_votes(changed)
+    if changed.include? 'upvote'
+      if current_user.user_votes.find_by(restaurant_id: @restaurant.id)
+        current_user.user_votes.find_by(restaurant_id: @restaurant.id).increment!(:upvote)
+      else
+        current_user.user_votes.create(restaurant_id: @restaurant.id, upvote: 1)
+      end
+    elsif changed.include? 'downvote'
+      if current_user.user_votes.find_by(restaurant_id: @restaurant.id)
+        current_user.user_votes.find_by(restaurant_id: @restaurant.id).increment!(:downvote)
+      else
+        current_user.user_votes.create(restaurant_id: @restaurant.id, downvote: 1)
+      end
+    end
+  end
     # Use callbacks to share common setup or constraints between actions.
     def set_restaurant
       @restaurant = Restaurant.find(params[:id])

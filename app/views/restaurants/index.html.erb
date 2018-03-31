@@ -37,6 +37,7 @@
           <th>Downvote</th>
     <% end %>
       <th>Up/Down -- Total</th>
+      <th>Vote History</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -48,16 +49,17 @@
         <td><%= restaurant.address %></td>
         <td><%= restaurant.city %></td>
         <% if user_signed_in? %>
-            <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote'  %></td>
-            <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote'  %></td>
+            <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote btn btn-sm btn-info'  %></td>
+            <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote  btn btn-sm btn-info'  %></td>
       <% end %>
         <td>
           <span class="<%= restaurant.id %>_up"><%= restaurant.upvote %></span>|
           <span class="<%= restaurant.id %>_down"><%= restaurant.downvote %></span>|
           <span class="<%= restaurant.id %>_total"><%= restaurant.upvote.to_i - restaurant.downvote.to_i %></span>
         </td>
-        <td><%= link_to 'Show', restaurant, class: 'btn btn-primary' %></td>
-        <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger' %></td>
+        <td><%= link_to 'History', vote_history_path(id: restaurant), class: 'btn btn-warning btn-sm' %></td>
+        <td><%= link_to 'Show', restaurant, class: 'btn btn-primary btn-sm' %></td>
+        <td><%= link_to 'Destroy', restaurant, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm' %></td>
       </tr>
     <% end %>
   </tbody>

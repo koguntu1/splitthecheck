@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180328184339) do
+ActiveRecord::Schema.define(version: 20180329170112) do
 
   create_table "restaurants", force: :cascade do |t|
     t.string "name"
@@ -20,6 +20,17 @@ ActiveRecord::Schema.define(version: 20180328184339) do
     t.integer "downvote", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "user_votes", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "restaurant_id"
+    t.integer "upvote", default: 0
+    t.integer "downvote", default: 0
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["restaurant_id"], name: "index_user_votes_on_restaurant_id"
+    t.index ["user_id"], name: "index_user_votes_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

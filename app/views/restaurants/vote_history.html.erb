@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-sm-6">
+    <h1>User Votes</h1>
+  </div>
+</div>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Restaurant Name</th>
+      <th>User Email</th>
+      <th>Upvotes</th>
+      <th>Downvotes</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_votes.each do |vote| %>
+      <tr>
+        <td><%= vote.restaurant.name %></td>
+        <td><%= vote.user.email %></td>
+        <td><%= vote.upvote.to_i %></td>
+        <td><%= vote.downvote.to_i %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
