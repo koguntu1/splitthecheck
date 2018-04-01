@@ -25,7 +25,28 @@
     <favorites_list name="split-the-check" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restaurants_controller_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,9 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +302,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +311,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="restaura&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;index&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/restaurants/index.html.erb&#10;applica.css&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/assets/stylesheets/application.css&#10;applica&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;user_vo&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;user&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/users.yml&#10;res&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;user_vote&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;restau&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;user_votes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;resta_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/models/restaurant_test.rb&#10;users&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/users.yml&#10;test&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/test_helper.rb&#10;gem&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;schema&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/schema.rb&#10;db/migrate/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/migrate&#10;views/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views&#10;routes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/config/routes.rb&#10;sche&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/schema.rb&#10;user.rb&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/models/user.rb&#10;uservo&#9;null&#9;null&#10;test_he&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/test_helper.rb&#10;appl&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;new&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/restaurants/new.html.erb&#10;gemfile&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;restau.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;resta&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;show&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/show.html.erb&#10;_form&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/_form.html.erb&#10;appli&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;js&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/javascripts/application.js&#10;restau.scss&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss&#10;edit&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/edit.html.erb&#10;restaurant_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/models/restaurant_test.rb&#10;yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;contr&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/controllers/restaurants_controller.rb&#10;controller_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/controllers/restaurants_controller_test.rb&#10;appl.h&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;res.sc&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss" />
+    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;index&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/index.html.erb&#10;restaura&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;applica.css&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/assets/stylesheets/application.css&#10;applica&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;user_vo&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;user&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/users.yml&#10;res&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;user_vote&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;restau&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;user_votes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;resta_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/models/restaurant_test.rb&#10;users&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/users.yml&#10;gem&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;schema&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/schema.rb&#10;db/migrate/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/migrate&#10;views/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views&#10;routes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/config/routes.rb&#10;sche&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/schema.rb&#10;user.rb&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/models/user.rb&#10;uservo&#9;null&#9;null&#10;test_he&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/test_helper.rb&#10;appl&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;new&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/restaurants/new.html.erb&#10;gemfile&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;restau.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;resta&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;show&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/show.html.erb&#10;_form&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/_form.html.erb&#10;appli&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;js&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/javascripts/application.js&#10;restau.scss&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss&#10;edit&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/edit.html.erb&#10;restaurant_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/models/restaurant_test.rb&#10;yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;contr&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/controllers/restaurants_controller.rb&#10;controller_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/controllers/restaurants_controller_test.rb&#10;appl.h&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;res.sc&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -440,17 +461,18 @@
       <workItem from="1522259928156" duration="4126000" />
       <workItem from="1522341374447" duration="7997000" />
       <workItem from="1522430835385" duration="1519000" />
+      <workItem from="1522465450644" duration="519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26329000" />
+    <option name="totallyTimeSpent" value="26848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -668,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,19 +827,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="156" column="50" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="55" column="8" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -826,18 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="61" column="129" selection-start-line="61" selection-start-column="129" selection-end-line="61" selection-end-column="129" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -845,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,9 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,6 +859,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
           <folding />
         </state>
       </provider>
