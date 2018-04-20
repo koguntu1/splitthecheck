@@ -1,0 +1,24 @@
+<% if comments.present? %>
+    <h1>Comments</h1>
+
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Body</th>
+        <th>User Email</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% comments.each do |comment| %>
+          <tr>
+            <td><%= comment.body %></td>
+            <td><%= comment.user.email %></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+
+<% else %>
+<p>No comments record found</p>
+<% end %>

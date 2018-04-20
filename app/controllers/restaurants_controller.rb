@@ -11,6 +11,10 @@ class RestaurantsController < ApplicationController
   # GET /restaurants/1
   # GET /restaurants/1.json
   def show
+    if current_user
+      @comment = Comment.new(user_id: current_user.id, restaurant_id:  @restaurant.id)
+      @comments = Comment.where(restaurant_id: @restaurant.id)
+    end
   end
 
   # GET /restaurants/new

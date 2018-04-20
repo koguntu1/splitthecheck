@@ -1,0 +1,46 @@
+<div class="row">
+  <div class="col-sm-8">
+    <h1>My Votes</h1>
+    <table class="table table-bordered">
+      <thead>
+      <tr>
+        <th>Restaurant Name</th>
+        <th>Upvotes</th>
+        <th>Downvotes</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% @user_votes.each do |vote| %>
+          <tr>
+            <td><%= link_to vote.restaurant.name, vote.restaurant, class: 'btn btn-sm btn-default' %></td>
+            <td><%= vote.upvote.to_i %></td>
+            <td><%= vote.downvote.to_i %></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+  </div>
+<div class="row">
+  <div class="col-sm-8">
+    <h1>My Comments</h1>
+    <table class="table table-bordered">
+      <thead>
+      <tr>
+        <th>Restaurant Name</th>
+        <th>Comment</th>
+      </tr>
+      </thead>
+
+      <tbody>
+      <% @comments.each do |comment| %>
+          <tr>
+            <td><%= link_to comment.restaurant.name, comment.restaurant, class: 'btn btn-sm btn-default' %></td>
+            <td><%= comment.body %></td>
+          </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

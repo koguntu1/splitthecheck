@@ -23,6 +23,13 @@
   <strong>Downvote:</strong>
   <span class="dislikes"><%=  @restaurant.downvote.to_i  %></span>
 </p>
-
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
+<% if user_signed_in? %>
+
+<br>
+<br>
+<h3>Add new comment</h3>
+<%= render 'comments/form', comment: @comment %>
+<%= render 'comment_index', comments: @comments %>
+<% end %>

@@ -20,6 +20,7 @@
       <% if current_user %>
           Logged in as <span class="text-info"><%= current_user.email %>.</span>
           <%= link_to "Log out", destroy_user_session_path, method: :delete, class: 'btn btn-sm btn-default' %>
+          <%= link_to "My Summary", user_summary_path, class: 'btn btn-sm btn-warning' %>
       <% else %>
           <%= link_to "Sign up", new_user_registration_path, class: 'btn btn-sm btn-default' %> or
           <%= link_to "log in", new_user_session_path, class: 'btn btn-sm btn-default' %>
