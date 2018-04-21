@@ -33,6 +33,7 @@
       <th>Address</th>
       <th>City</th>
       <% if user_signed_in? %>
+          <th>Mark Favorite</th>
           <th>Upvote</th>
           <th>Downvote</th>
     <% end %>
@@ -51,6 +52,7 @@
         <td><%= restaurant.address %></td>
         <td><%= restaurant.city %></td>
         <% if user_signed_in? %>
+           <td> <%= check_box_tag restaurant.id, restaurant.id,  restaurant.favorites.where(user_id: current_user.id)[0].try(:favorite_res), {id: restaurant.id, class: 'favorite'}  %></td>
             <td><%= button_tag :upvote, value: 'upvote', id: restaurant.id, class: 'upvote btn btn-sm btn-info'  %></td>
             <td><%= button_tag :downvote, value: 'downvote', id: restaurant.id, class: 'downvote  btn btn-sm btn-info'  %></td>
       <% end %>
@@ -97,4 +99,26 @@
         }
       })
     });
+    $('.favorite').click(function() {
+      var checked;
+      if ($(this).is(':checked')) {
+        checked = true;
+      } else {
+        checked = false;
+      }
+      $.ajax({
+        type: "patch",
+        url: "/favorite",
+        data: {id: $(this).attr("id"), checked: checked},
+        beforeSend: function(){
+          $("#flash_notice").text('Loading... Please wait');
+          $('#flash_notice').show();
+        },
+        success: function (data, textStatus) {
+          $("#flash_notice").text('Action completed successfully');
+          $('#flash_notice').show();
+        }
+      })
+    }
+    );
 </script>

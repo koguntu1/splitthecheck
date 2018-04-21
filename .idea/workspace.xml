@@ -29,28 +29,18 @@
       <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="1921">
+              <caret line="113" column="57" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/restaurants/show.html.erb">
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_comment_index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/restaurants/_comment_index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -59,28 +49,8 @@
       <file leaf-file-name="restaurants_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -89,38 +59,68 @@
       <file leaf-file-name="comments_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="493">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="summary.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/comments/summary.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/comments/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vote_history.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/restaurants/vote_history.html.erb">
+      <file leaf-file-name="comments_controller_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/controllers/comments_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comments.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/comments.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favorites.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/favorites.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="summary.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/comments/summary.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favorite.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/favorite.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -143,29 +143,33 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/restaurants.js" />
         <option value="$PROJECT_DIR$/app/views/restaurants/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180318185405_add_columns_to_restaurnts.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20180329165947_user_votes.rb" />
         <option value="$PROJECT_DIR$/app/views/restaurants/vote_history.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20180329170112_create_user_votes.rb" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
-        <option value="$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/devise/shared/_links.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/restaurants/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/comment.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/models/restaurant.rb" />
         <option value="$PROJECT_DIR$/app/views/comments/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/restaurants/_comment_index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/restaurants/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/restaurants_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/restaurants/show.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/restaurant.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20180421075846_add_favorite_res_to_favorite.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/favorite.rb" />
+        <option value="$PROJECT_DIR$/app/views/restaurants/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/comments/summary.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/favorites.yml" />
+        <option value="$PROJECT_DIR$/test/controllers/comments_controller_test.rb" />
       </list>
     </option>
   </component>
@@ -206,7 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,7 +358,7 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +366,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="summary&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/comments/summary.html.erb&#10;res&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/restaurants_controller.rb&#10;comments&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/comments_controller.rb&#10;routes&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/config/routes.rb&#10;restaurants/index&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/index.html.erb&#10;comment&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/comments_controller.rb&#10;new&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/comments/new.html.erb&#10;restau&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/restaurants_controller.rb&#10;res/show&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/show.html.erb&#10;_form&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/comments/_form.html.erb&#10;restaurant&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/restaurant.rb&#10;schema&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/db/schema.rb&#10;user&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/user.rb&#10;test&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;index&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/index.html.erb&#10;restaura&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;applica.css&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/assets/stylesheets/application.css&#10;applica&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;user_vo&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;user_vote&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;user_votes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;resta_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/models/restaurant_test.rb&#10;users&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/users.yml&#10;gem&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;db/migrate/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/migrate&#10;views/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views&#10;sche&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/schema.rb&#10;user.rb&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/models/user.rb&#10;uservo&#9;null&#9;null&#10;test_he&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/test_helper.rb&#10;appl&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;gemfile&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;restau.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;resta&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;show&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/show.html.erb&#10;appli&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;js&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/javascripts/application.js&#10;restau.scss&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss&#10;edit&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/edit.html.erb&#10;restaurant_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/models/restaurant_test.rb&#10;yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;contr&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/controllers/restaurants_controller.rb&#10;controller_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/controllers/restaurants_controller_test.rb&#10;appl.h&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;res.sc&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss" />
+    <property name="SearchEverywhereHistoryKey" value="summary&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/comments/summary.html.erb&#10;favori.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/test/fixtures/favorites.yml&#10;comments&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/test/fixtures/comments.yml&#10;schema&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/db/schema.rb&#10;comment&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/comment.rb&#10;resta&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/restaurants_controller.rb&#10;favori&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/favorite.rb&#10;comm&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/comments_controller.rb&#10;db/migrate/&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/db/migrate&#10;res&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/restaurant.rb&#10;user&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/user.rb&#10;favorite&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/config/routes.rb&#10;gem&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/Gemfile&#10;index&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/index.html.erb&#10;comments.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/test/fixtures/comments.yml&#10;res/index&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/index.html.erb&#10;restaurants/index&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/index.html.erb&#10;new&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/comments/new.html.erb&#10;restau&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/controllers/restaurants_controller.rb&#10;res/show&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/restaurants/show.html.erb&#10;_form&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/views/comments/_form.html.erb&#10;restaurant&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/app/models/restaurant.rb&#10;test&#9;FILE&#9;file://C:/Users/Zia/Desktop/Rails Work/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;restaura&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/controllers/restaurants_controller_test.rb&#10;applica.css&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/assets/stylesheets/application.css&#10;applica&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;user_vo&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;user_vote&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;user_votes&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/user_votes.yml&#10;resta_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/models/restaurant_test.rb&#10;users&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/users.yml&#10;views/&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views&#10;sche&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/db/schema.rb&#10;user.rb&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/models/user.rb&#10;uservo&#9;null&#9;null&#10;test_he&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/test_helper.rb&#10;appl&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/app/views/layouts/application.html.erb&#10;gemfile&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/Gemfile&#10;restau.yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check Final/test/fixtures/restaurants.yml&#10;show&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/show.html.erb&#10;appli&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb&#10;js&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/javascripts/application.js&#10;restau.scss&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/assets/stylesheets/restaurants.scss&#10;edit&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/restaurants/edit.html.erb&#10;restaurant_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/models/restaurant_test.rb&#10;yml&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/fixtures/restaurants.yml&#10;contr&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/controllers/restaurants_controller.rb&#10;controller_te&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/test/controllers/restaurants_controller_test.rb&#10;appl.h&#9;FILE&#9;file://C:/Users/Zia/Desktop/split-the-check/app/views/layouts/application.html.erb" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -531,22 +535,24 @@
       <workItem from="1522430835385" duration="1519000" />
       <workItem from="1522465450644" duration="519000" />
       <workItem from="1524198388992" duration="1770000" />
-      <workItem from="1524200781288" duration="1257000" />
+      <workItem from="1524200781288" duration="1650000" />
+      <workItem from="1524249878259" duration="3100000" />
+      <workItem from="1524295772203" duration="5775000" />
+      <workItem from="1524306711915" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29875000" />
+    <option name="totallyTimeSpent" value="39174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24377745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4208211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -558,6 +564,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4208211" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -578,52 +585,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/restaurants.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="15" selection-start-line="105" selection-start-column="15" selection-end-line="105" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -671,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -738,7 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,14 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -820,50 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comments/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,23 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/restaurants/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,54 +794,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="374">
           <caret line="22" column="85" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comments/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/restaurants/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/restaurants_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/restaurant.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180421075846_add_favorite_res_to_favorite.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180420185851_create_favorites.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/favorite.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/restaurants_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/comments/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/restaurants/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1921">
+          <caret line="113" column="57" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/comments.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/comments/summary.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="238">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/favorites.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/comments_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding />
         </state>
       </provider>

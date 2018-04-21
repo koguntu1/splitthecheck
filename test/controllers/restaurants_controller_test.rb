@@ -19,7 +19,7 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
   test "should create restaurant" do
     sign_in users(:one)
     assert_difference('Restaurant.count') do
-      post restaurants_url, params: { restaurant: { address: @restaurant.address, city: @restaurant.city, downvote: @restaurant.downvote, name: @restaurant.name, upvote: @restaurant.upvote } }
+      post restaurants_url, params: { restaurant: { address: @restaurant.address, city: @restaurant.city, name: @restaurant.name } }
     end
 
     assert_redirected_to restaurant_url(Restaurant.last)
@@ -38,7 +38,7 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
 
   test "should update restaurant" do
     sign_in users(:one)
-    patch restaurant_url(@restaurant), params: { restaurant: { address: @restaurant.address, city: @restaurant.city, downvote: @restaurant.downvote, name: @restaurant.name, upvote: @restaurant.upvote } }
+    patch restaurant_url(@restaurant), params: { restaurant: { address: @restaurant.address, city: @restaurant.city, name: @restaurant.name } }
     assert_redirected_to restaurant_url(@restaurant)
   end
 
@@ -105,22 +105,6 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
 
     @restaurant.reload
     assert_equal @restaurant.upvote, 2
-  end
-
-  test 'should verify downvote and user down votes count increment' do
-    sign_in users(:one)
-    UserVote.destroy_all
-    assert_equal @restaurant.downvote, 1
-    assert_difference('UserVote.count', 1) do
-      patch restaurant_url(@restaurant), params: { restaurant: { downvote: @restaurant.downvote + 1, id: @restaurant.id}, format: :json }
-      assert_response :success
-    end
-    assert_equal UserVote.last.user, users(:one)
-    assert_equal UserVote.last.upvote, 0
-    assert_equal UserVote.last.downvote, 1
-
-    @restaurant.reload
-    assert_equal @restaurant.downvote, 2
   end
 
   test 'should verify restaurant page permission' do

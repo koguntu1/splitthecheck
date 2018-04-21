@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get 'search' => 'restaurants#index'
   get 'vote_history' => 'restaurants#vote_history'
   get 'user_summary' => 'comments#summary'
+  patch 'favorite' => 'comments#favorite'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

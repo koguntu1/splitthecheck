@@ -6,4 +6,5 @@ class User < ApplicationRecord
 
   has_many :user_votes
   has_many :comments
+  has_many :favorites
 end

@@ -43,4 +43,15 @@
       </tbody>
     </table>
   </div>
+</div><div class="row">
+  <div class="col-sm-8">
+    <h1>My Favorite Restaurants</h1>
+    <ul>
+      <% @favorite_restaurants.each do |favorite| %>
+          <li>
+            <%= link_to favorite.restaurant.name, favorite.restaurant %>
+          </li>
+      <% end %>
+    </ul>
+  </div>
 </div>

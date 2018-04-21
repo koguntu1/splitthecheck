@@ -16,12 +16,12 @@
 
 <p>
   <strong>Upvote:</strong>
-<span class="likes"><%= @restaurant.upvote.to_i %></span>
+<span class="likes"><%= UserVote.where(restaurant_id: @restaurant.id).sum(:upvote) %></span>
 </p>
 
 <p>
   <strong>Downvote:</strong>
-  <span class="dislikes"><%=  @restaurant.downvote.to_i  %></span>
+  <span class="dislikes"><%=  UserVote.where(restaurant_id: @restaurant.id).sum(:downvote)  %></span>
 </p>
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
