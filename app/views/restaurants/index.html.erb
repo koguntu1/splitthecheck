@@ -77,7 +77,6 @@
         url: 'restaurants/' + $(this).attr("id"),
         type: 'patch',
         data: {'restaurant' : {'upvote' : parseInt($('.' + $(this).attr("id") + '_up').text()) + 1} },
-        dataType: 'json',
         success: function(data){
           $('.' + upvote + '_up').text(data.upvote);
           $('.' + upvote + '_down').text(data.downvote);
@@ -91,7 +90,6 @@
         url: 'restaurants/' + $(this).attr("id"),
         type: 'patch',
         data: {'restaurant' : {'downvote' : parseInt($('.' + $(this).attr("id") + '_down').text()) + 1 } },
-        dataType: 'json',
         success: function(data){
           $('.' + upvote + '_up').text(data.upvote);
           $('.' + upvote + '_down').text(data.downvote);
@@ -102,9 +100,9 @@
     $('.favorite').click(function() {
       var checked;
       if ($(this).is(':checked')) {
-        checked = true;
+        checked = 'true';
       } else {
-        checked = false;
+        checked = 'false';
       }
       $.ajax({
         type: "patch",

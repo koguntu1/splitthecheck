@@ -49,12 +49,9 @@ class RestaurantsController < ApplicationController
       @restaurant.name = restaurant_params[:name] if restaurant_params[:name]
       @restaurant.address = restaurant_params[:address] if restaurant_params[:address]
       @restaurant.city = restaurant_params[:city] if restaurant_params[:city]
-      @restaurant.upvote = restaurant_params[:upvote] if restaurant_params[:upvote]
-      @restaurant.downvote = restaurant_params[:downvote] if restaurant_params[:downvote]
-      changed = @restaurant.changed
       if @restaurant.save
-        create_user_votes(changed)
-        format.html { redirect_to @restaurant, notice: 'Restaurant was successfully updated.' }
+        create_user_votes
+        format.html { redirect_to restaurants_url, notice: 'Restaurant was successfully updated.' }
         format.json { render :show, status: :ok, location: @restaurant }
       else
         format.html { render :edit }
@@ -87,14 +84,14 @@ class RestaurantsController < ApplicationController
 
   private
 
-  def create_user_votes(changed)
-    if changed.include? 'upvote'
+  def create_user_votes
+    if params[:restaurant][:upvote]
       if current_user.user_votes.find_by(restaurant_id: @restaurant.id)
         current_user.user_votes.find_by(restaurant_id: @restaurant.id).increment!(:upvote)
       else
         current_user.user_votes.create(restaurant_id: @restaurant.id, upvote: 1)
       end
-    elsif changed.include? 'downvote'
+    elsif params[:restaurant][:downvote]
       if current_user.user_votes.find_by(restaurant_id: @restaurant.id)
         current_user.user_votes.find_by(restaurant_id: @restaurant.id).increment!(:downvote)
       else

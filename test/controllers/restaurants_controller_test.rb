@@ -25,9 +25,18 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to restaurant_url(Restaurant.last)
   end
 
-  test "should show restaurant" do
+  test 'should show restaurant' do
+    sign_in users(:one)
     get restaurant_url(@restaurant)
     assert_response :success
+
+    assert_select 'h1', 'Comments'
+    assert_select 'tbody' do
+      assert_select 'tr' do
+        assert_select 'td', comments(:one).body
+        assert_select 'td', comments(:one).user.email
+      end
+    end
   end
 
   test "should get edit" do
@@ -39,7 +48,7 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
   test "should update restaurant" do
     sign_in users(:one)
     patch restaurant_url(@restaurant), params: { restaurant: { address: @restaurant.address, city: @restaurant.city, name: @restaurant.name } }
-    assert_redirected_to restaurant_url(@restaurant)
+    assert_redirected_to restaurants_url
   end
 
   test "should destroy restaurant" do
@@ -94,17 +103,13 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
   test 'should verify upvote and user votes count increment' do
     sign_in users(:one)
     UserVote.destroy_all
-    assert_equal @restaurant.upvote, 1
     assert_difference('UserVote.count', 1) do
-      patch restaurant_url(@restaurant), params: { restaurant: { upvote: @restaurant.upvote + 1, id: @restaurant.id}, format: :json }
+      patch restaurant_url(@restaurant), params: { restaurant: { upvote: 1, id: @restaurant.id}, format: :json }
       assert_response :success
     end
     assert_equal UserVote.last.user, users(:one)
     assert_equal UserVote.last.upvote, 1
     assert_equal UserVote.last.downvote, 0
-
-    @restaurant.reload
-    assert_equal @restaurant.upvote, 2
   end
 
   test 'should verify restaurant page permission' do
@@ -130,6 +135,9 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
       assert_select 'tr' do
         assert_select 'td', @restaurant.name
         assert_select 'td', @restaurant.city
+        assert_select 'td' do
+          assert_select "input.favorite[type='checkbox']"
+        end
         assert_select "a[href='/vote_history?id=#{@restaurant.id}']", text: 'History'
         assert_select "a[href='/restaurants/#{@restaurant.id}']", text: 'Show'
       end
@@ -144,5 +152,18 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
       assert_select 'td', user_vote.user.email
       assert_select 'td', user_vote.restaurant.name
     end
+  end
+
+  test 'should verify user can mark restaurant as favorite' do
+    Favorite.destroy_all
+    sign_in users(:one)
+
+    assert_difference('Favorite.count', 1) do
+      patch '/favorite', params:{ id: @restaurant.id, checked: 'true'}
+      assert_response :success
+    end
+    favorite = Favorite.last
+    assert_equal favorite.restaurant.name, @restaurant.name
+    assert_equal favorite.favorite_res, true
   end
 end
