@@ -36,8 +36,8 @@ ActiveRecord::Schema.define(version: 20180421075846) do
     t.string "name"
     t.string "address"
     t.string "city"
-    t.integer "upvote"
-    t.integer "downvote"
+    t.integer "upvote", default: 0
+    t.integer "downvote", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
